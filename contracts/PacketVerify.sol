@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 pragma experimental ABIEncoderV2;
 
 import "./lib/MsDecoder.sol";
-import "./ECDSA.sol";
+import "./lib/ECDSA.sol";
 import "./lib/RLPReader.sol";
 
 contract PacketVerify {
